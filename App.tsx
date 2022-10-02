@@ -1,15 +1,9 @@
 import React from 'react';
-import {SafeAreaView} from 'react-native';
-import HomeMap from './src/components/HomeMap';
-import TravelMessage from './src/components/TravelMessage';
-
+import Home from './src/screens/Home';
 
 const App = () => {
   return (
-    <SafeAreaView>
-      <HomeMap/>
-      <TravelMessage />
-    </SafeAreaView>
+    <Home />
   );
 };
 
