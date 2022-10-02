@@ -6,7 +6,12 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 const HomeMap = props => {
 
     return (
-        <Text style={{height: 300, backgroundColor: '#7899e5', justifyContent: 'center'}}>HomeMap</Text>
+        <Text style={{
+            height: 300, 
+            backgroundColor: '#7899e5', 
+            justifyContent: 'center',
+
+        }}>HomeMap</Text>
     );
 };
 

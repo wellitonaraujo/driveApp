@@ -2,16 +2,14 @@ import React from 'react';
 import {StyleSheet,Text} from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
+import styles from './styles';
+
 
 const Home = props => {
 
     return (
-        <Text>Home</Text>
+        <Text style={styles.text}>Home</Text>
     );
 };
-
-const styles = StyleSheet.create({
-
-});
 
 export default Home;
